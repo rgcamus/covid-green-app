@@ -1,0 +1,440 @@
+{
+  "common": {
+    "name": "COVID Tracker Ireland",
+    "url": "https://www.covidtracker.ie/",
+    "message": "Únete a COVID Tracker Irlanda para luchar contra COVID-19",
+    "networkError": "Problema de conexión. Por favor, comprueba tu conexión a Internet e inténtalo de nuevo.",
+    "missingDataAction": "Actualizar la página",
+    "missingError": "Problema de carga. No pudimos cargar algunos de los datos correctamente.",
+    "preferNotToSay": "Prefiero no decirlo",
+    "confirmChanges": "Confirmar los cambios",
+    "changesUpdated": "Cambios actualizados",
+    "dismiss": "Descartar"
+  },
+  "viewNames": {
+    "age": "Confirma tu edad",
+    "getStarted": "Empezar",
+    "casesByCounty": "Casos por condado",
+    "updates": "Actualizaciones",
+    "symptomchecker": "Chequeo de COVID",
+    "settings": "Ajustes",
+    "uploadKeys": "Sube tus claves aleatorias",
+    "closeContact": "Contacto cercano",
+    "settingsContactTracing": "Ajustes de rastreo de contactos",
+    "settingsCheckin": "Configuración de verificación de COVID",
+    "dataPolicy": "Política de protección de datos",
+    "terms": "Términos y condiciones",
+    "metrics":"Configuración de las métricas de la App",
+    "leave": "Deja el rastreador de COVID en Irlanda",
+    "contactTracing": "Rastreo de contactos"
+  },
+  "navbar": {
+    "settings": "Ajustes",
+    "settingsHint": "Ver o modificar la configuración de la aplicación",
+    "back": "Volver",
+    "backHint": "Navega hacia atrás a la pantalla anterior"
+  },
+  "tabBar": {
+    "updates": "Actualizaciones",
+    "symptomCheck": "COVID Check-In",
+    "contactTracing": "Rastreo de contactos",
+    "shareApp": "Compartir app",
+    "shareError": "Hubo un error al compartir. Por favor, inténtelo de nuevo o póngase en contacto con nosotros."
+  },
+  "onboarding": {
+    "intro": {
+      "title": "Con el rastreador de COVID puedes hacer 3 cosas para ayudar a luchar contra COVID-19:",
+      "view1": {
+        "title": "Rastreo de contactos",
+        "text": "Ayuda a rastrear los contactos, protegiendo tu privacidad."
+      },
+      "view2": {
+        "title": "COVID Check-In",
+        "text": "Revise sus síntomas todos los días."
+      },
+      "view3": {
+        "title": "Actualizaciones",
+        "text": "Manténgase al día en la lucha contra COVID-19."
+      },
+      "view4": {
+        "text": "Si tocas Empezar, estás aceptando los ",
+        "link": "Términos & Condiciones"
+      },
+      "action": "Empezar"
+    },
+    "information": {
+      "title": "Rastreo de Contactos",
+      "highlight": "El Rastreo de Contactos ayuda a prevenir la propagación de COVID-19.",
+      "highlight1": "Esta aplicación apoya el trabajo de los equipos de Rastreo de Contactos del HSE, pero dichos equipos también pueden contactarle como parte del rastreo de contactos manual.",
+      "text": "La App le enviará una Alerta de Contacto Cercano si ha estado en contacto cercano con alguien que ha dado positivo en la prueba del virus.",
+      "text1": "Para habilitar el Rastreo de Contactos para esta aplicación necesitas activarlo:",
+      "text2": "y para obtener una alerta necesitas encenderla:",
+      "action": "Continúa",
+      "later": "Tal vez más tarde.",
+      "skip": "Saltar por ahora",
+      "bluetooth": "Servicio de notificación de exposición",
+      "notifications": "Notificaciones",
+      "quote": "Si cambias de opinión, puedes cambiar tus permisos en Configuración en cualquier momento."
+    },
+    "upgrade": {
+      "ios": {
+        "title": "El iOS de Apple debe ser actualizado",
+        "text": "Para habilitar Rastreo de Contactos, necesitas actualizar a la última versión de Apple iOS.",
+        "action": "Compruebe si hay actualizaciones..."
+      },
+      "android": {
+        "title": "Los Servicios de Google Play deben ser actualizados",
+        "text": "Para habilitar Rastreo de Contactos, necesitas actualizar a la última versión de Google Play Services.",
+        "action": "Compruebe si hay actualizaciones..."
+      }
+    }
+  },
+  "dataProtectionPolicy": {
+    "title": "Aviso de información sobre protección de datos",
+    "link": "Puede leer el Aviso de Información sobre Protección de Datos aquí",
+    "text": "El AIPD no pudo ser cargado"
+  },
+  "tandcPolicy": {
+    "title": "Términos y condiciones",
+    "link": "Términos y condiciones",
+    "text": "Los Términos y Condiciones no pudieron ser cargados"
+  },
+  "stats": {
+    "title": "Última actualización",
+    "totalConfirmed": "Total de casos confirmados",
+    "totalDeaths": "Muertes totales",
+    "totalHospitalised": "Número de personas hospitalizadas",
+    "requiredICU": "Necesita UCI"
+  },
+  "checker": {
+    "title": "COVID Check-In",
+    "resultTitle": "Gracias",
+    "question1": "**¿Tienes fiebre - una temperatura alta de más de 38 grados centígrados?**\n\nLos síntomas de la fiebre pueden incluir mejillas sonrojadas, sentirse cansado y estar acalorado o caliente al tacto.",
+    "question1id": "fiebre",
+    "question1Label": "Alta temperatura o escalofríos",
+    "question2id": "tos",
+    "question2": "*¿Tienes algún tipo de tos?*",
+    "question2Label": "Tos",
+    "question3id": "respiración",
+    "question3": "**¿Tienes alguna dificultad para respirar?**\n\nEsto puede ser como jadear o sentir que no puedes llenar tus pulmones.",
+    "question3Label": "Dificultad para respirar",
+    "question4id": "gripe",
+    "question4": "**¿Tienes alguna pérdida del sentido del gusto o del olfato?**\n\nEsto podría significar que no puedes saborear u oler nada, o que las cosas saben u huelen diferente a lo normal.",
+    "question4Label": "Pérdida del sentido del gusto o del olfato",
+    "yes": "Sí",
+    "no": "No",
+    "virusIsolation": "Estos síntomas coinciden con los síntomas del coronavirus. Recuerda, 8 de cada 10 personas con COVID-19 se recuperan en casa con descanso y medicamentos sin receta.\n\n¿Qué hacer ahora?\n\nPor favor, aíslate en casa para proteger a los demás.\n\nLlama a tu médico de cabecera para obtener asesoramiento y ver si debe ser analizado para COVID-19.",
+    "recovered": "Nos alegra saber que te sientes mejor. Mantente bien siguiendo el consejo de hse.ie.",
+    "linkButton": "Lea más consejos aquí",
+    "viewHistory": "Ver mi historia",
+    "introTitle": "COVID Check-In",
+    "introWelcome": "Sobre ti",
+    "introButton": "Continúa",
+    "noresults": "Aún no has probado el chequeo de síntomas. Empieza ahora tocando el botón de arriba",
+    "noSymptomsWell": {
+      "message": "Nos alegra saber que te sientes bien. Gracias por venir a vernos. Incluso si todavía estás bien, por favor vuelve mañana para hacernos saber cómo estás.",
+      "viewHistory": "Ver mi historia",
+      "advice": "Visita hse.ie para leer más sobre cómo protegerse a sí mismo y a los demás del coronavirus.",
+      "protectionAdvice": "Consejos sobre la protección"
+    },
+    "noSymptomsNotWell": {
+      "message": "Gracias por comprobarlo. Lamentamos oír que no te encuentras bien.\n\n Si tienes síntomas como secreción nasal o dolor de garganta, debes comportarse como si tuvieras un coronavirus y aislarte durante 14 días para proteger a los demás.\n\nLlama a tu médico de cabecera para discutir tus síntomas y si necesitas una prueba de coronavirus o no.",
+      "viewHistory": "Ver mi historia",
+      "advice": "Visita hse.ie para leer más sobre cómo protegerte a ti mismo y a los demás del coronavirus.",
+      "protectionAdvice": "Consejos sobre protección"
+    },
+    "riskGroup": {
+      "warning": "Debido a su edad, nos gustaría que tuviera un cuidado especial para protegerse de la COVID-19.\n\nLas personas mayores y las que tienen problemas de salud a largo plazo corren un mayor riesgo de padecer enfermedades graves si contraen COVID-19.",
+      "warningReadMore": "Lea más sobre esto aquí",
+      "advice": "Sabemos que no es un momento fácil. Si necesita apoyo o consejo sobre cómo manejarse en casa, pulse abajo para obtener más información.",
+      "adviceReadMore": "Obtener más información"
+    }
+  },
+  "welcome": {
+    "title": "Hola 👋",
+    "text": "COVID Check-In permite, a todos los que usan la aplicación, comprobar los síntomas y obtener consejos. También ayuda al HSE a mapear y rastrear cómo la COVID-19 está afectando a Irlanda.\n\nCOVID Check-In no revela su identidad. Puede compartir su edad, sexo y localidad para ayudar a que la información sea más útil para el análisis de la salud pública.\n\nEl COVID Check-In también mantiene un registro en su teléfono de cualquier síntoma que haya tenido, para que pueda volverlo a revisar en cualquier momento.",
+    "action": "Sí, me gustaría usar COVID Check-In",
+    "letUsKnow": "Háganos saber si hoy\ntiene síntomas"
+  },
+  "returning": {
+    "title": "Bienvenido de nuevo 👋",
+    "subtitle": "¿Cómo te sientes hoy?",
+    "action1": "Estoy bien, no tengo síntomas.",
+    "action2": "Hoy no me siento bien",
+    "completeTitle": "Es genial escucharlo 👍",
+    "completeLink": "Vea su historial"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "contactTracing": "Rastreo de Contactos",
+    "contactTracingHint": "Ver o modificar la configuración de Rastreo de Contactos",
+    "checkIn": "COVID Check-In",
+    "checkinHint": "Ver o modificar la configuración COVID Check-In",
+    "privacyPolicy": "Aviso de información sobre protección de datos",
+    "privacyPolicyHint": "Ver el Aviso de Información sobre Protección de Datos",
+    "termsAndConditions": "Términos y condiciones",
+    "termsAndConditionsHint": "Ver los Términos y Condiciones",
+    "metrics": "Métricas de la App",
+    "metricsHint": "Ver o modificar la configuración de métricas de la App",
+    "leave": "Abandonar",
+    "leaveHint": "Abandonar la aplicación"
+  },
+  "leave": {
+    "title": "Abandonar",
+    "info": "Gracias por ayudarnos a luchar contra COVID-19. Sentimos mucho que te vayas. Cuando toques 'Quiero abandonar', eliminaremos todos los datos almacenados por la aplicación de su dispositivo, incluyendo un número de móvil, si lo ha compartido; datos de síntomas y cualquier dato demográfico de salud que pueda haber compartido.\n\nTambién se eliminarán los tokens de autorización sin identificación almacenados en el servidor. Las identificaciones aleatorias creadas o recogidas por los Servicios de Notificación de Exposición no pueden ser eliminadas por la aplicación COVID Tracker. Si desea eliminar estas ID aleatorias, puede hacerlo a través de la configuración del dispositivo.",
+    "button": "Quiero abandonar",
+    "confirmTitle": "Abandonar",
+    "confirmText": "¿Estás seguro de que quieres abandonar?",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "error": "Hubo un error al borrar sus datos. Por favor, inténtelo de nuevo o póngase en contacto con nosotros."
+  },
+  "checkInSettings": {
+    "title": "COVID Check-In",
+    "checkInFirst": "Su configuración será visible aquí tan pronto como haga su primer Check-In",
+    "intro": "Ha compartido con nosotros la siguiente información",
+    "gotoCheckIn": "Ir a COVID Check-In"
+  },
+  "appStats": {
+    "title": "La lucha de hoy",
+    "totalCheckins": "Total Check-Ins hoy",
+    "noSymptoms": "Se sienten bien",
+    "someSymptoms": "Algunos Síntomas",
+    "nationalPicture": "El panorama nacional",
+    "breakdown": "Pulse para el desglose del condado"
+  },
+  "contactTracing": {
+    "title": "Rastreo de Contactos",
+    "active": {
+      "title": "Rastreo de Contactos activo"
+    },
+    "noSupport": {
+      "title": "Rastreo de Contactos no disponible",
+      "message": "Desafortunadamente, este dispositivo no soporta el Rastreo de Contactos. Todavía puedes usar la app para el registro y actualizaciones de COVID."
+    },
+    "canSupport": {
+      "title": "Rastreo de Contactos no disponible",
+      "message": {
+        "ios": "Para habilitar Rastreo de Contactos es necesario actualizar a la última versión de iOS (13.5 o superior).",
+        "android": "Para habilitar Rastreo de Contactos necesitas actualizar a la última versión de Google Play Services."
+      },
+      "button": "Compruebe si hay alguna actualización..."
+    },
+    "notEnabled": {
+      "title": "Rastreo de Contactos no habilitado",
+      "message": "Para habilitar el Rastreo de Contactos necesitas configurarlo.",
+      "button": "Configuración"
+    },
+    "notActive": {
+      "title": "El Rastreo de Contactos no está activo",
+      "message00": "Necesita habilitar en tu configuración los **Servicio de notificación de exposición**",
+      "message10": "Necesita habilitar en tu configuración los **Servicio de notificación de exposición**",
+      "message01": "Necesitas habilitar **Bluetooth** en tu configuración",
+      "message11": "Necesitas habilitar **Servicio de notificación de exposición** y **Bluetooth** en tu configuración",
+      "button": "Ir a los ajustes",
+      "android": {
+        "button": "Habilitar",
+        "message": "Necesitas habilitar **Servicio de notificación de exposición** para activar el Rastreo de Contactos"
+      }
+    },
+    "registrationsTitle": "Registros App",
+    "registrationsYesterday": "total registros desde la App",
+    "registrationsHint": "Gráfico que muestra cuántos registros ha habido en la aplicación a lo largo del tiempo",
+    "shareAppText": "Cuanta más gente pueda usar esta aplicación, más efectivo será nuestro esfuerzo de Rastreo de Contactos. Comparte la aplicación para ayudarnos a alcanzar nuestro objetivo.",
+    "uploadCard": {
+      "title": "Suba sus IDs aleatorios",
+      "text": "Para usar sólo si el HSE se pone en contacto con usted."
+    },
+    "closeContactCard": {
+      "title": "Información de contacto cercano",
+      "text": "Qué hacer si te dicen que eres un contacto cercano de alguien con COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Estado",
+        "active": "El servicio está actualmente activo",
+        "notActive": "El servicio no está activo",
+        "intro": "Para actualizar la configuración de permisos, ve a la configuración de aplicaciones de tu dispositivo.",
+        "gotoSettings": "Actualizar la configuración",
+        "android": {
+          "intro": "El servicio de notificaciones de exposición no está actualmente habilitado, haga clic en habilitar para comenzar.",
+          "gotoSettings": "Habilitar"
+        }
+      },
+      "clearData": {
+        "title": "Contactos cercanos",
+        "intro": "Toca el botón de abajo para borrar todos los eventos de Contactos Cercanos.",
+        "button": "Limpiar todo",
+        "confirmTitle": "Contactos Cercanos",
+        "confirmText": "¿Estás seguro de que quieres borrar todos tus contactos cercanos?",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "error": "Hubo un error al borrar sus contactos cercanos. Por favor, inténtalo de nuevo."
+      }
+    }
+  },
+  "confirmedChart": {
+    "title": "Casos confirmados diariamente",
+    "label": "Gráfico de casos confirmados diarios",
+    "hint": "Gráfico que muestra los casos confirmados diariamente a lo largo del tiempo",
+    "yesterday": "Casos confirmados ayer"
+  },
+  "transmissionChart": {
+    "title": "Cómo se está extendiendo COVID-19",
+    "community": "Transmisión comunitaria",
+    "contact": "Contacto Cercano",
+    "travel": "Viaje al extranjero"
+  },
+  "statsSource": {
+    "monitor": "COVID-19 Health Surveillance Monitor (Irlanda)",
+    "communityTransmissions": "Transmisiones comunitarias, sin contacto cercano conocido",
+    "lastUpdatedStats": "Última actualización de los casos confirmados: ",
+    "lastUpdatedProfile": "Última actualización del perfil de los casos: "
+  },
+  "symptomsHistory": {
+    "title": "Su historial de síntomas",
+    "symptom": "Síntoma",
+    "symptoms": "Síntomas",
+    "completed": "Puedes comprobar los síntomas de nuevo mañana"
+  },
+  "casesByCounty": {
+    "title": "Casos por condado"
+  },
+  "yourData": {
+    "title": "Tus datos",
+    "info": "La App COVID Tracker protege su privacidad y no comparte su información personal con otros usuarios. Su identidad tampoco será revelada jamás a otros usuarios de la App.\n\n**Cualquier dato personal que proporcione será procesado de acuerdo con la ley GDPR. Puedes leer más sobre esto en el Aviso de Información sobre Protección de Datos que aparece a continuación. **Sus datos sólo se utilizarán en relación con la respuesta a la pandemia COVID-19**, tal como se establece en dicho Aviso.\n\nSi necesita ser alertado, la aplicación iniciará este proceso con una notificación segura dentro de la aplicación. Aparte de usar esta aplicación, el equipo de rastreo de contactos del HSE puede llamarte si alguien con COVID-19 te identifica como un contacto cercano. Si tiene un positivo por COVID-19, el HSE se pondrá en contacto con usted por texto o por teléfono con los resultados.\n\nTenga cuidado con cualquier llamada telefónica, correo electrónico o texto sospechoso que le pida información personal. **El HSE no le pedirá información personal por texto o correo electrónico.**",
+    "viewInSettings": "Puedes ver este aviso en cualquier momento en Ajustes. Si no quieres continuar, cierra y borra la aplicación. Si lo consiente, toque Continuar para seguir.",
+    "continue": "Continuar"
+  },
+  "sorry": {
+    "title": "Lamento escucharlo",
+    "info": "Desafortunadamente no podrás usar más la aplicación. Puedes volver a unirte en cualquier momento. Sólo tienes que tocar el botón de Regresar.",
+    "back": "Regresar"
+  },
+  "ageRequirement": {
+    "notice": "Debes tener 16 años o más para usar esta aplicación",
+    "over": "Tengo 16 años o más",
+    "under": "Soy menor de 16 años"
+  },
+  "underAge": {
+    "title": "Menor de 16",
+    "notice": "Gracias por tu interés pero, desafortunadamente, eres muy joven para participar en esta iniciativa.\n\nMantente a salvo."
+  },
+  "followUpCall": {
+    "title": "Llamada de seguimiento de Rastreo de Contactos",
+    "shortTitle": "Devolver llamada",
+    "intro": "Si alguien, con quien has estado en Contacto Cercano, da positivo en las pruebas de COVID-19, la app te enviará una alerta de Contacto Cercano.\n\nEl HSE también te llamará si proporcionas tu número a continuación.",
+    "note": "El HSE también puede telefonearte si se te identifica como un contacto cercano mediante el rastreo manual de contactos. El HSE le dará consejos y lo referirá para que se haga la prueba si es apropiado.\n\nLa aplicación sólo compartirá su número de teléfono con el HSE si recibe una Alerta de Contacto Cercano. Puede ingresar su número a continuación o agregarlo más tarde en Configuración.",
+    "noteAlt": "Si alguien con quien has estado en contacto cercano da positivo en las pruebas de COVID-19, la aplicación te enviará una alerta de contacto cercano.\n\nEl HSE también te llamará si usted proporciona su número abajo. El HSE también puede llamarle si usted es identificado como un contacto cercano por el rastreo manual de contactos. El HSE le dará consejos y lo referirá para que se haga la prueba si es apropiado.\n\nLa App sólo compartirá su número de teléfono con el HSE si recibe una Alerta de Contacto Cercano. Puede ingresar su número a continuación.",
+    "noteSettings": "Si lo desea, intentaremos llamarle para proporcionarle más ayuda después de que reciba una notificación de exposición.\n\nSu número de teléfono sólo será compartido con el HSE si recibe una notificación de exposición.",
+    "optIn": "Sí, quiero optar",
+    "noThanks": "No, gracias."
+  },
+  "closeContactNotification": {
+    "title": "Alerta de Contacto Cercano",
+    "description": "Por favor, compruebe la aplicación COVID Tracker ahora."
+  },
+  "closeContactWarn": {
+    "title": "Alerta de Contacto Cercano",
+    "notice": "La aplicación ha detectado que has estado en estrecho contacto con alguien que ha dado positivo en la prueba de COVID-19."
+  },
+  "closeContact": {
+    "title": "Alerta de Contacto Cercano",
+    "infoTitle": "Información de Contacto Cercano",
+    "intro": "Si ha recibido una notificación de la aplicación, o una llamada de nuestro equipo de Rastreo de Contactos, diciéndole que ha estado en contacto cercano con alguien que ha dado positivo en el test de coronavirus, puede que necesite hacerse la prueba.",
+    "alertintro": "La aplicación COVID Tracker ha detectado que has estado en estrecho contacto con alguien que ha dado positivo en un test de coronavirus. Es posible que necesite hacerse la prueba.",
+    "callBack": "Vuelve a llamar",
+    "callBackQueue": "El equipo de rastreo de contactos del HSE le llamará lo antes posible.",
+    "todo": {
+      "title": "Hay algunas cosas que deberías hacer para proteger a los demás.",
+      "selfIsolationDetails": "Para detalles sobre cómo auto-aislarse vaya a [https://www2.hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact](https://www2.hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact)",
+      "list": "1. Quédate en casa.\n\n2. No vayas a trabajar.\n\n3. No uses el transporte público.\n\n4. No tengas visitas en tu casa.\n\n5. No visites a otros, aunque normalmente los cuides.\n\n6. No vaya a las tiendas o farmacias a menos que sea absolutamente necesario - cuando sea posible, ordene sus alimentos por internet o haga que algunos familiares o amigos se los lleven.\n\n 7. Manténgase alejado de las personas mayores, de cualquier persona con problemas médicos crónicos o de mujeres embarazadas."
+    }, 
+    "symptoms": {
+      "title": "Llama a tu médico de cabecera si tienes síntomas.",
+      "intro": "Averigua más acerca de lo que tienes que hacer en HSE.ie.",
+      "callHSE": "Ir a HSE.ie"
+    }
+  },
+  "uploadKeys": {
+    "title": "Sube tus IDs aleatorios",
+    "code": {
+      "intro": "Un miembro del equipo de Rastreo de Contactos puede pedirle que comparta los IDs aleatorios, generadas por su teléfono durante los 14 días anteriores.\n\nDe ser así recibirá un código único de 6 dígitos por mensaje de texto para activar la función de carga. ",
+      "expiredError": "El código ha expirado. Contacte con el HSE para solicitar otro.",
+      "invalidError": "Código inválido. Por favor, inténtelo de nuevo.",
+      "error": "Hubo un error al validar el código. Por favor, inténtelo de nuevo."
+    },
+    "upload": {
+      "intro": "Para ayudarnos a rastrear sus contactos recientes de los últimos 14 días, le pedimos que comparta la identificación anónima, aleatoriazada, generada por su teléfono, con el HSE.",
+      "button": "Subir IDs aleatorios al HSE"
+    },
+    "permissionError": "No hemos subido sus claves porque no nos ha dado el permiso apropiado.",
+    "uploadError": "Se produjo un error al intentar subirlas",
+    "uploadSuccess": {
+      "toast": "Carga completada",
+      "thanks": "Gracias por subir sus identificaciones anónimos. Esto ayudará a nuestro equipo de rastreo de contactos a frenar la propagación de COVID-19 y a proteger a los demás.",
+      "updates": "Volver a Actualizaciones"
+    }
+  },
+  "sex": {
+    "label": "Su sexo (opcional)",
+    "female": "Femenino",
+    "male": "Masculino"
+  },
+  "ageRange": {
+    "label": "Su rango de edad (opcional)",
+    "placeholder": "Elija su rango de edad"
+  },
+  "phoneNumber": {
+    "code": {
+      "label": "Su código de país",
+      "placeholder": "País",
+      "searchPlaceholder": "Busca un país",
+      "noResults": "No se han encontrado resultados para esta búsqueda.\n\nInténtalo de otra forma.",
+      "error": {
+        "required": "Se requiere el código de su país."
+      }
+    },
+    "number": {
+      "label": "Su número de teléfono (opcional)",
+      "placeholder": "Su número",
+      "error": {
+        "invalid": "Su número no es válido. Por favor, proporcione su número de teléfono completo.",
+        "short": "Su número está incompleto. Por favor, proporcione su número de teléfono completo.",
+        "required": "Su número es necesario."
+      }
+    }
+  },
+  "county": {
+    "label": "Su condado (opcional)",
+    "placeholder": "Elija su condado",
+    "searchPlaceholder": "Buscar",
+    "noResults": "No se han encontrado resultados para esta búsqueda.\n\nInténtalo de otra forma."
+  },
+  "locality": {
+    "label": "Su localidad (opcional)",
+    "placeholder": "Elija su localidad",
+    "searchPlaceholder": "Buscar",
+    "noResults": "No se han encontrado resultados para esta búsqueda.\n\nInténtalo de otra forma."
+  },
+  "appUsage": {
+    "title": "App Metrics",
+    "info": "Al HSE le gustaría entender su uso de la App con el fin de mejorarla. \n\n La aplicación recogería métricas anónimas sobre cómo utilizas la App y la eficacia de los procesos de Rastreo de Contactos. Esta información es recogida por el HSE directamente y no utiliza a ningún tercero para recoger métricas.\n\n **Esta información sólo se recoge con su expreso consentimiento y no puede ser utilizada para identificarle**.",
+    "settingsInfo": "Si cambias de opinión, puedes modificar estos permisos, en Configuración, en cualquier momento.",
+    "yesButton": "Sí, consiento",
+    "noThanks": "No, gracias."
+  },
+  "metrics": {
+    "title": "App Metrics",
+    "info": "Al HSE le gustaría entender su uso de la App con el fin de mejorarla. \n\n La aplicación recogería métricas anónimas sobre cómo utilizas la App y la eficacia de los procesos de Rastreo de Contactos. Esta información es recogida por el HSE directamente y no utiliza a ningún tercero para recoger métricas.\n\n **Esta información sólo se recoge con su expreso consentimiento y no puede ser utilizada para identificarle**.",
+    "share": "Compartir estadísticas de uso de la app"
+  },
+  "tracingAvailable": {
+    "title": "Rastreo de Contactos ya está ahora disponible para usted",
+    "text": "Configurar ahora"
+  },
+  "codeInput": {
+    "accessibilityLabel": "Dígito del código {{number}}",
+    "accessibilityHint": "Entra el {{count}} dígito del código"
+  }  
+}
