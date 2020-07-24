@@ -18,5 +18,5 @@ export const supportedLocales = {
   ga: {
     name: 'Irish',
     ...ga
-  } 
+  }
 };
